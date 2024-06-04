@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+</head>
+<body class="text-center">
+    
+    <h1>Click here to change images</h1>
+    <button onclick="randomImage()" class="btn-primary"> click here </button> <br> <br>
+    <img class="img1" src="./assets/images/img3.jpg" width="50%">
+
+    <script>
+        function randomImage()
+        {
+            randomNumber = Math.round(Math.random()*4);
+
+            if(randomNumber==0)
+            {
+                document.querySelector("img").setAttribute("src","./assets/images/img3.jpg");
+            }
+            else if(randomNumber==1)
+            {
+                document.querySelector("img").setAttribute("src","./assets/images/img4.jpg");
+
+            }
+            else if(randomNumber==2)
+            {
+                document.querySelector("img").setAttribute("src","./assets/images/img5.jpg");
+
+            }
+            else 
+            {
+                document.querySelector("img").setAttribute("src","./assets/images/img6.jpg");
+            }
+
+        }
+    </script>
+    
+</body>
+</html>

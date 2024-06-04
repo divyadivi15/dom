@@ -1,0 +1,27 @@
+body{
+    background-color: #29304A;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 3px 3px #E00364;
+}
+.set{
+    margin-left: 200px;
+}
+.drum{
+    font-size: 3rem;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+    color: #E00364;
+    text-shadow: 3px 3px white;
+    
+}
+.w{
+    background-image: url("./images/tom1.png");
+}
+.a{
+    background-image: url("./images/tom2.png");
+}

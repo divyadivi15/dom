@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!------------------------------- between 0 and 1 ---------------------------->
+
+    <p>Random number between 0 and 1</p>
+    <button onclick="random()">Try it</button>
+    <p id="demo"></p>
+    <script>
+        
+        function random(){
+            
+            document.getElementById("demo").innerHTML=Math.random()*1;
+        }
+    </script>
+
+    <!---------------------------------between 1 to 10 ---------------------------->
+    
+    <p>Random integer number between 1 to 10</p>
+    <button onclick="randomValue()">Try it</button>
+    <p id="value"></p>
+    <script>
+        
+        function randomValue(){
+            
+            document.getElementById("value").innerHTML=Math.round( Math.random()*10);
+        }
+    </script>
+
+</body>
+</html>
